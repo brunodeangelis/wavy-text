@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Wavy Text Generator</title>
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="siri-container"></div>
+   <div class="siri-container"></div>
+   <div class="siri-container"></div>
+   <div class="siri-container"></div>
+   <div class="siri-container"></div>
+   <div class="siri-container"></div>
+
+   <main class="grid-container">
+      <div class="grid-item mg-bottom">
+         <h1 class="bold">Wavy Text Generator</h1>
+         <input type="text" id="text" placeholder="Text to repeat">
+         <input type="number" id="rounds" placeholder="1" value="1" min="1" max="99">
+         <button type="submit" id="go">Wave it!</button>
+      </div>
+      <h2 class="text-center">Output</h2>
+      <div class="border">
+         <textarea id="output" placeholder="Output..."></textarea>
+      </div>
+      <button type="button" id="copy">Copy to clipboard</button>
+   </main>
+
+   <script src="https://unpkg.com/siriwave@1.2.4/dist/siriwave.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>

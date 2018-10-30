@@ -1,0 +1,160 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+}
+
+p {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: black;
+   padding: 50px 10px;
+   color: white;
+}
+
+.grid-container {
+   display: grid;
+   align-content: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.grid-item {
+   text-align: center;
+}
+
+.container {
+   margin: 0 auto;
+   width: 700px;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+h1 {
+   margin-bottom: 20px;
+}
+
+input {
+   background: white;
+   border: 0;
+   border-radius: 5px;
+   padding: 10px 15px;
+   margin-bottom: 5px;
+   outline: none;
+   transition: box-shadow 100ms ease-in;
+}
+
+textarea {
+   height: 400px;
+   width: 100%;
+   padding: 15px;
+   border: 0;
+   resize: none;
+   outline: none;
+}
+
+form {
+   margin-bottom: 30px;
+}
+
+h2 {
+   font-weight: 400;
+}
+
+#copy {
+   justify-self: start;
+   margin-left: 0;
+}
+
+.text-center {
+   text-align: center;
+}
+
+button {
+   padding: 10px 15px;
+   background: transparent;
+   background-color: yellow;
+   color: black;
+   border: 0;
+   border-radius: 5px;
+   margin: 10px;
+   outline: 0;
+   transition: background-color 100ms ease-in;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: darken(yellow, 8%);
+}
+
+input:focus {
+   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+#rounds {
+   width: 35px;
+   padding: 10px 3px;
+}
+
+.mg-bottom {
+   margin-bottom: 30px;
+}
+
+.success {
+   background-color: green;
+}
+
+.success:hover {
+   background-color: darken(green, 8%);
+}
+
+.border {
+   overflow: hidden;
+   margin-top: 15px;
+   border-radius: 5px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   width: 100%;
+}
+
+canvas {
+   width: 100% !important;
+}
+
+.siri-container {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 100%;
+   z-index: -1;
+}
+
+.siri-container:nth-child(1) {
+   top: 0%;
+}
+
+.siri-container:nth-child(2) {
+   top: 20%;
+}
+
+.siri-container:nth-child(3) {
+   top: 40%;
+}
+
+.siri-container:nth-child(4) {
+   top: 60%;
+}
+
+.siri-container:nth-child(5) {
+   top: 80%;
+}
+
+.siri-container:nth-child(6) {
+   top: 100%;
+}
