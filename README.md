@@ -1,2 +1,2 @@
 # Wavy Text
-Create popular YouTube-like wavy-text comments.
+Convert plain text into a sine waveform-like formatted text.
